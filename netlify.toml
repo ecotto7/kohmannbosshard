@@ -1,0 +1,178 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Strict-Transport-Security = "max-age=31536000"
+    Content-Security-Policy-Report-Only = "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://maps.gstatic.com https://maps.googleapis.com https://*.googleusercontent.com https://*.ggpht.com https://*.canva.com; font-src 'self' data:; frame-src https://maps.google.com https://www.google.com https://www.canva.com https://*.canva.com; connect-src 'self' https://maps.googleapis.com https://www.canva.com https://*.canva.com; form-action 'self' https://kohmannbosshard.app.box.com https://client.schwab.com https://wealth.emaplan.com https://kohmannbosshard.portal.tamaracinc.com https://brokercheck.finra.org; frame-ancestors 'none'"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/elementor-332"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/elementor-332/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/Contact-Us"
+  to = "/contact-us/"
+  status = 301
+
+[[redirects]]
+  from = "/Contact-Us/"
+  to = "/contact-us/"
+  status = 301
+
+[[redirects]]
+  from = "/resources"
+  to = "/resources-2/"
+  status = 301
+
+[[redirects]]
+  from = "/resources/"
+  to = "/resources-2/"
+  status = 301
+
+[[redirects]]
+  from = "/hello-world"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/hello-world/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/sample-home-page"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/sample-home-page/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/test-page"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/test-page/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/category/uncategorized"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/category/uncategorized/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/comments/feed"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/comments/feed/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/xmlrpc.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-json"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-json/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2026/03/2026-03-23KohmannBosshardADVPart2AFinal.pdf"
+  to = "/documents/2026-03-23KohmannBosshardADVPart2AFinal.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2026/03/2026-03-23KohmannBosshardFormCRSFinal.pdf"
+  to = "/documents/2026-03-23KohmannBosshardFormCRSFinal.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2026/03/2026-03-23KohmannBosshardPrivacyPolicyFinal.pdf"
+  to = "/documents/2026-03-23KohmannBosshardPrivacyPolicyFinal.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2026/04/2026-03-23KohmannBosshardFormCRSFinal_V2.pdf"
+  to = "/documents/2026-03-23KohmannBosshardFormCRSFinal_V2.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2026/04/2026-03-23KohmannBosshardPrivacyPolicyFinal_V2.pdf"
+  to = "/documents/2026-03-23KohmannBosshardPrivacyPolicyFinal_V2.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/04/KB-Privacy-Policy.pdf"
+  to = "/documents/2026-03-23KohmannBosshardPrivacyPolicyFinal_V2.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/04/RegisteredInvestAdvisorDisclosure.pdf"
+  to = "/documents/2026-03-23KohmannBosshardADVPart2AFinal.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/09/2024-Form-CRS-Updated.pdf"
+  to = "/documents/2026-03-23KohmannBosshardFormCRSFinal_V2.pdf"
+  status = 301
